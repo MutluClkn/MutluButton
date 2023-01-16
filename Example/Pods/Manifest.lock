@@ -1,0 +1,16 @@
+PODS:
+  - MutluButton (0.1.0)
+
+DEPENDENCIES:
+  - MutluButton (from `../`)
+
+EXTERNAL SOURCES:
+  MutluButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MutluButton: 45c75621522d73bdb0bf3213a0bd177a3a5a43ab
+
+PODFILE CHECKSUM: 2794a33ab4a3a8ab11a0fdcf6527a880675682e3
+
+COCOAPODS: 1.11.3

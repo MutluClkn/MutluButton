@@ -1,0 +1,22 @@
+{
+  "name": "MutluButton",
+  "version": "0.1.0",
+  "summary": "A short description of MutluButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MutluClkn/MutluButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MutluClkn": "mutlu.calkan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MutluClkn/MutluButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MutluButton/Classes/**/*"
+}

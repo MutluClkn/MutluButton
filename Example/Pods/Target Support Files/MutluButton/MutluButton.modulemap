@@ -1,0 +1,6 @@
+framework module MutluButton {
+  umbrella header "MutluButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
