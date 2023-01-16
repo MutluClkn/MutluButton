@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MutluButton_Example' do
+  pod 'MutluButton', :path => '../'
+
+  target 'MutluButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
