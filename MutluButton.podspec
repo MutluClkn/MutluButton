@@ -31,16 +31,18 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
 
   s.source_files = 'Source/**/*.swift'
-  s.swift_version = '5.0
+  s.swift_version = '5.0'
+
   s.platforms = {
       "ios": "15.0"
   }
-  
+
+  # {storyboard,xib,xcassets,json,png}
   # s.resource_bundles = {
   #   'MutluButton' => ['MutluButton/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
