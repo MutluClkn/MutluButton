@@ -33,23 +33,23 @@ pod trunk push
 
 Before creating a pod project, you need to install the latest version of CocoaPods. Simply, you can just type `sudo gem install cocapods` command to the terminal and enter your Mac password.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/1.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/1.png " width="700">
 
 Next, you need to navigate the root folder on the terminal. You can simply do this by typing `cd` and drag and drop the root folder, or navigate by typing as I did in the picture.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/2.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/2.png " width="700">
 
 Once you navigate the root folder, you can type `*pod lib create {Project_Name}` to clone the pod template into the root folder. You can type own project name to the *{Project_Name}* section. 
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/3.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/3.png " width="700">
 
 After cloning, it will ask some basic questions to configure our pod project. You can answer with your own preferences.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/4.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/4.png " width="700">
 
 Once you complete these steps Xcode should start automatically, and you need to see a similar screen to the picture below.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/5.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/5.png " width="400">
 
 
 
@@ -57,7 +57,7 @@ Once you complete these steps Xcode should start automatically, and you need to 
 
 Next, you need to create a new repository on GitHub for your pod project. The repo must be public. Before starting to create the pod project, I prefer to commit and push it to the newly created GitHub repo. To do this, you need to navigate the terminal to cloned the pod project first.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/6.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/6.png " width="700">
 
 Then, you can type these commands by order:
 
@@ -70,7 +70,8 @@ git remote add origin {GitHub_Repo_Link}
 git push -u origin master
 ```
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/7.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/9.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/7.png " width="700">
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/9.png " width="900">
 
 
 
@@ -78,31 +79,35 @@ git push -u origin master
 
 To pretend errors you need to change *iOS Deployment* on project settings. I made 15.0 for this project and recommend to make it 13.0 or higher. Do the same changes to all targets.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/14.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/13.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/15.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/14.png " width="600">
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/13.png " width="650">
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/15.png " width="650">
 
 To make the project more clear, I prefer to delete *ReplaceMe* file and create a *Source* or *Sources* subfolder under Pods target and development project folder.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/10.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/11.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/10.png " width="300"><img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/11.png " width="300">
 
 Since this is an explanation of basically creating a CocoaPods project, I only created a basic UIButton configuration method.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/23.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/23.png " width="900">
 
 Now build the project and see if there is any error. If there is an error about *iOS Deployment*, you can change it to the higher value. For the yellow warnings, you can just simply click on them and press *Next*.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/16.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/17.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/16.png " width="200">
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/17.png " width="750">
 
 After dealing with the yellow warnings, `didFinishLaunchingWithOptions` method in the `AppDelegate.swift` file will need to be updated. You can simply click on the `Fix` button.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/19.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/19.png " width="800">
 
 Once completed these steps, you can start to create an example project under `Example for {Project_Name}` folder. To test the button, create one and set the constraints on the `Main.storyboard`. On the *Identify Inspector* menu, change the class name to the pod name. After that you can connect the button to the `ViewController.swift` as outlet.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/24.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/25.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/26.png " width="900"><img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/25.png " width="250">
 
 Now you can call the `configureButton` method to test button under `viewDidLoad()` and run the code. Don't forget to import library.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/26.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/27.png)
+![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/26.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/27.png " width="250">
 
 If the button configurated succesfully, you can start to edit `podspec` file under `Podspec Metadata`. Change the `s.summary`, `s.description` and `s.ios.deployment_target` as you prefer. 
 
@@ -135,7 +140,8 @@ Before continue, you need to navigate terminal to your project root folder. Then
 
 Next, you can click on `Create a new release` on the GitHub repo. On the Release screen, enter your project version that you writed in `podspec` file to the `Tag` section and enter the project name. Then you can click on the `Publish release`.
 
-![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/32.png)![image](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/33.png)
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/32.png " width="300">
+<img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/33.png " width="800">
 
 As the last step, you can open the terminal and type `pod trunk push` to publish the pod.
 
