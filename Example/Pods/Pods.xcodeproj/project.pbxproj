@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101D2BCB1ADC576F61B3659CADF7B48F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBC577589C1351BD47F1314AA0F530 /* ReplaceMe.swift */; };
 		64AF12D41DCB2BCEB113B66D1000819E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		942437BEAD62CE59778D975FB9FE3AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		964254B8769D4975F2E8C654CF3D7062 /* Pods-MutluButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5CD003906C7F28035D9EC1EE85B007 /* Pods-MutluButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +16,7 @@
 		BE9AEEFD34620F4A2DCF918F5ED26F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C88C4D5333C3EB984EADC52E3E6CD1B6 /* Pods-MutluButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CFA46151E2F25B94D99FA80F6AA03 /* Pods-MutluButton_Example-dummy.m */; };
 		E81BEA82DB83F84E83E4EB4C8C363514 /* MutluButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12420BCC428071E72787992C317A0FA7 /* MutluButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2A17B297668360084AEF5 /* MutluButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2A17A297668360084AEF5 /* MutluButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +41,24 @@
 		0F59591B909BDFD018A044E377FD2578 /* Pods-MutluButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MutluButton_Tests.modulemap"; sourceTree = "<group>"; };
 		12420BCC428071E72787992C317A0FA7 /* MutluButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MutluButton-umbrella.h"; sourceTree = "<group>"; };
 		181095D7EB87EC46B535F936FB006808 /* Pods-MutluButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MutluButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F753824EFC7B69675E3A8FF809E25CE /* MutluButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MutluButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F753824EFC7B69675E3A8FF809E25CE /* MutluButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MutluButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		238DCABD51F3B8B729EB8DFDCDFBC652 /* MutluButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MutluButton.release.xcconfig; sourceTree = "<group>"; };
-		2520179F201A1EC8FD7E9583687971DE /* MutluButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MutluButton; path = MutluButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2520179F201A1EC8FD7E9583687971DE /* MutluButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MutluButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AC4E7896166B42C7F67B1C8A9D340B /* Pods-MutluButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MutluButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		36A61D998CC0C5E22822CEE283EEC162 /* Pods-MutluButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MutluButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D5AF0D4C0AFD3AF788A2DFD2B381712 /* Pods-MutluButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MutluButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		3E63620902BE76C911352C7EC42BE3C1 /* MutluButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MutluButton-prefix.pch"; sourceTree = "<group>"; };
 		4B79B5402FA8041D77E09C3842F7090A /* MutluButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MutluButton.debug.xcconfig; sourceTree = "<group>"; };
-		52C56BEACC7E6969E83FFE149A3CD0BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6613A1A8ADD2826418054B14F295B016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52C56BEACC7E6969E83FFE149A3CD0BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6613A1A8ADD2826418054B14F295B016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6BC1F0FFF9E2DC0E3D94BA6B9EF22852 /* Pods-MutluButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MutluButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70BBC577589C1351BD47F1314AA0F530 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MutluButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F9CFA46151E2F25B94D99FA80F6AA03 /* Pods-MutluButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MutluButton_Example-dummy.m"; sourceTree = "<group>"; };
-		87D5E552A6135A90A95979B2ABFD9BA8 /* Pods-MutluButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MutluButton_Example"; path = Pods_MutluButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D5E552A6135A90A95979B2ABFD9BA8 /* Pods_MutluButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MutluButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8919D0C8BC642B30EC58E29616767490 /* Pods-MutluButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MutluButton_Example.modulemap"; sourceTree = "<group>"; };
 		8D7FA96022E142BE4F1D5E6EFB01196D /* Pods-MutluButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MutluButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		97896B276CA2070C70DCEDC36EB476E6 /* MutluButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MutluButton-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B39FD30ABC320EA75AA0386C1F69BDC2 /* Pods-MutluButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MutluButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B61A7C87C28931B02EBD1D1991CFDA6F /* Pods-MutluButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MutluButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B61C3BFC47E61E3C3B431F6078BA1EA3 /* MutluButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MutluButton-Info.plist"; sourceTree = "<group>"; };
@@ -69,7 +68,8 @@
 		CF5CD003906C7F28035D9EC1EE85B007 /* Pods-MutluButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MutluButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DB4B9227F642E3BA8D09AF83A03BAA29 /* Pods-MutluButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MutluButton_Example-Info.plist"; sourceTree = "<group>"; };
 		E1C2AA3521310012AF58E0FC6D4FDB01 /* Pods-MutluButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MutluButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FE21A88B080D6DD50E87FD8240366DA8 /* Pods-MutluButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MutluButton_Tests"; path = Pods_MutluButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB2A17A297668360084AEF5 /* MutluButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutluButton.swift; sourceTree = "<group>"; };
+		FE21A88B080D6DD50E87FD8240366DA8 /* Pods_MutluButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MutluButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +128,9 @@
 		1CFE3BB820ED40B1C78CBA9867169698 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2520179F201A1EC8FD7E9583687971DE /* MutluButton */,
-				87D5E552A6135A90A95979B2ABFD9BA8 /* Pods-MutluButton_Example */,
-				FE21A88B080D6DD50E87FD8240366DA8 /* Pods-MutluButton_Tests */,
+				2520179F201A1EC8FD7E9583687971DE /* MutluButton.framework */,
+				87D5E552A6135A90A95979B2ABFD9BA8 /* Pods_MutluButton_Example.framework */,
+				FE21A88B080D6DD50E87FD8240366DA8 /* Pods_MutluButton_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 		8D9EE33187CCE70F66D65728F5816D56 /* MutluButton */ = {
 			isa = PBXGroup;
 			children = (
-				70BBC577589C1351BD47F1314AA0F530 /* ReplaceMe.swift */,
+				FAB2A179297667AA0084AEF5 /* Source */,
 				13EBBBEE3671C741BA37A29EB7D7EB9B /* Pod */,
 				1B16853346DFA66EC89FE1F8EF830A58 /* Support Files */,
 			);
@@ -221,6 +221,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB2A179297667AA0084AEF5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2A17A297668360084AEF5 /* MutluButton.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +277,7 @@
 			);
 			name = "Pods-MutluButton_Tests";
 			productName = Pods_MutluButton_Tests;
-			productReference = FE21A88B080D6DD50E87FD8240366DA8 /* Pods-MutluButton_Tests */;
+			productReference = FE21A88B080D6DD50E87FD8240366DA8 /* Pods_MutluButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		51D4A2472D255CBCFB87A3D6891E791E /* Pods-MutluButton_Example */ = {
@@ -288,7 +296,7 @@
 			);
 			name = "Pods-MutluButton_Example";
 			productName = Pods_MutluButton_Example;
-			productReference = 87D5E552A6135A90A95979B2ABFD9BA8 /* Pods-MutluButton_Example */;
+			productReference = 87D5E552A6135A90A95979B2ABFD9BA8 /* Pods_MutluButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ACD6C843CD447F45037D7E9AC9AE52F0 /* MutluButton */ = {
@@ -306,7 +314,7 @@
 			);
 			name = MutluButton;
 			productName = MutluButton;
-			productReference = 2520179F201A1EC8FD7E9583687971DE /* MutluButton */;
+			productReference = 2520179F201A1EC8FD7E9583687971DE /* MutluButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +324,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ACD6C843CD447F45037D7E9AC9AE52F0 = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBC674F0A145DF1606F4BD4D74B1401 /* MutluButton-dummy.m in Sources */,
-				101D2BCB1ADC576F61B3659CADF7B48F /* ReplaceMe.swift in Sources */,
+				FAB2A17B297668360084AEF5 /* MutluButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B79B5402FA8041D77E09C3842F7090A /* MutluButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MutluButton/MutluButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MutluButton/MutluButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MutluButton/MutluButton.modulemap";
 				PRODUCT_MODULE_NAME = MutluButton;
@@ -430,7 +444,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -453,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MutluButton_Tests/Pods-MutluButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MutluButton_Tests/Pods-MutluButton_Tests.modulemap";
@@ -475,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 238DCABD51F3B8B729EB8DFDCDFBC652 /* MutluButton.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,7 +503,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MutluButton/MutluButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MutluButton/MutluButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MutluButton/MutluButton.modulemap";
 				PRODUCT_MODULE_NAME = MutluButton;
@@ -495,7 +511,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -519,7 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MutluButton_Example/Pods-MutluButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MutluButton_Example/Pods-MutluButton_Example.modulemap";
@@ -572,6 +588,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -587,13 +604,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -615,7 +631,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MutluButton_Example/Pods-MutluButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MutluButton_Example/Pods-MutluButton_Example.modulemap";
@@ -648,7 +664,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MutluButton_Tests/Pods-MutluButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MutluButton_Tests/Pods-MutluButton_Tests.modulemap";
@@ -700,6 +716,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -718,7 +735,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
