@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Documentation
+
+Click [here](https://github.com/MutluClkn/MutluButton/blob/main/Documentation/Documentation.md) to see the documentation about creating a custom CocoaPods.
 
 ## Installation
 
