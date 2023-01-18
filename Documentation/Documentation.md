@@ -77,7 +77,7 @@ git push -u origin master
 
 ## Create The Pod Project
 
-To pretend errors you need to change *iOS Deployment* on project settings. I made 15.0 for this project and recommend to make it 13.0 or higher. Do the same changes to all targets.
+To prevent the errors, you need to change *iOS Deployment* on project settings. I made 15.0 for this project and recommend to make it 13.0 or higher. Do the same changes to all targets.
 
 <img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/14.png " width="600">
 <img src="https://github.com/MutluClkn/MutluButton/blob/main/Documentation/SS_Docs/13.png " width="650">
